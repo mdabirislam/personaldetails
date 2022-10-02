@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+   font: sans-serif;
+   font-size: small;
+  }
+  .container {
+    background-color: brown;
+    color: white;
+    width: 100%;
+  
+  }
+  .nav{
+    height: 120px;
+    background-color: rgb(69, 63, 63) ;
+  }
+  .profile-picture {
+    height : 100%;
+    width  : 100px;
+     float: right;
+    }
+  .header-bio{
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+    text-shadow: darkturquoise -2px 3px 5px;
+  }
+  .header-bio h1,h2,h3{
+    color: aqua;
+    font-size: 30px;
+    }
+  .contact{
+    float: left;
+   
+  }
+  .contact a{
+   
+    color: #480ACA;
+    text-decoration: none;
+  }
+  .contact a:hover{
+    color:  #5ABF18;
+    text-decoration: underline;
+  }
+  .div-clear{
+    clear: both;
+  }
+  hr{
+    border: 3px solid black;
+    border-bottom: none;
+    margin-bottom: 10px;
+    }
+   .div-section{
+     float: left;
+     width: 40%;
+   }
+    .div-sectionr{
+     float: left;
+     width: 60%;
+   }
+    .div-section1{
+     float: left;
+     width: 40%;
+    }
+    .div-section2{
+     float: left;
+     width: 60%;
+   }
+    .div-section2 p::selection{
+       color: green;
+  }
+   .year{
+      color: green;
+      font-weight: bold;
+    }
+  .common-hr{
+     border: 2px solid black;
+     border-bottom: none;
+     margin: 10px 0 10px 0;
+   }
+  
+  .footer{
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+    width: 850px;
+    margin: 5px auto;
+    }
+    .footer a{
+      margin: 30px;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  
+    .copyright{
+      text-align: right;
+      background-color: #B1ACAC;
+    }
+    .copyright a{
+    
+     color: black;
+      font-weight: bold;
+      text-decoration: none;
+    }
+ .footer>a:hover{
+      text-decoration: underline;
+    }
+  .copyright:hover{
+    text-decoration: underline;
+  }
